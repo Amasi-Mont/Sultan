@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 0;
+    background-color:#f5f1eb;
+    color: #333;
+    text-align: right;
+    direction: rtl; 
+   text-align: center;
+
+
+
+
+}
+main div {
+    display: inline-block; 
+    border: 3px solid orange; 
+    padding: 10px 15px; 
+    margin: 10px 0;  
+    border-radius: 10px; 
+    background-color: white; 
+    width: 70%; 
+
+}
+
+
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header {
+    background-color:#333;
+    padding: 15px;;
+    text-align: right; 
+    position: relative;
+}
+
+
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.contact-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+ul {
+    list-style-position: inside; 
+    text-align: center; 
+}
+
+
+h1{
+    color:#D32F2F; 
+}
+
+h2{
+    background-color:#D32F2F; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+
+.HomePage h3{
+    background-color: #e74c3c;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+  
+
+
+}
+.logo{
+background-color: #f4f4f4;
+border-top:5px solid #d9534f ;
+padding: 15px;
+gap: 20px;
+
+}
+.logo img{
+    height: 50px;
+    max-width: 100px;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10;
+    text-align: center;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        background-color: #f8f9fa;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
